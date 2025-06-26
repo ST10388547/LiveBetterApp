@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvBudgetGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budget Goal"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Add Expense"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btnViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Expenses"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSetBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Budget"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btnViewGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="View Spending Graph"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btnCategorySummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        android:text="Category Summary"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btnGamification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:text="View Rewards &amp; Badges"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnGoalTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:text="Track Goal Progress"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

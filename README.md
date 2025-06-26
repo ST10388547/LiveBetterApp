@@ -54,3 +54,6 @@ jobs:
         run: ./gradlew build
 
 https://github.com/ST10388547/LiveBetterApp/
+
+LINK TO THE VIDEO
+https://youtube.com/shorts/_f3aYT_htd0?si=3A5ppHd4SmrxBJaj
